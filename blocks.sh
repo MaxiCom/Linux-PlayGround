@@ -59,6 +59,35 @@
 #  Partition Structure #
 
 # Boot Block(s)
-#
+# Blocks on a Linux (and often a Unix) filesystem are 1024 bytes in length, but may be longer or shorter.
+# The blocks aare normally a power of 2 in size (1024 is 2 to the 10th power).
+# Some systems use 512 bytes (2 to the 9th) but 2048 and 4096 are also seen.
+
+# The first few blocks on any partition may hold a boot program, a short program for loading the kernel of the operating system, and launching it.
+
+# Often, on a Linux system, it will be controlled by LILO or GRUB, allowing booting of multiple operating systems.
+# It's quite simple (and common) to have multiple boot environment (Windows and Linux)
+
+
+
+
+
+
+# Superblock
+
+# The boot blocks are followed by the superblock, which contains information about the geometry of the physical disk, the layout of the partition,
+# number of inodes and data blocks, etc.
+
+
+
+
+
+
+# Inode Blocks (Information NODEs)
+
+# Disk space allocation is managed by the inodes, which are created by the mkfs (make filesystem) command.
+# Inodes cannot be manipulated directly, but are changed by many commands, such as touch, cp and syscalls like open() and unlink()
+# can be read by stat
+# chmod change access permissions
 
 
