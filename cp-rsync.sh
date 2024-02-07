@@ -10,5 +10,3 @@
 
 # rsync copy ONLY THE UPDATED PARTS OF THE UPDATED FILES, instead of the whole file.
 # rsync can use compression & encryption!!!
-
-
