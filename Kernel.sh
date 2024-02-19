@@ -10,3 +10,6 @@
 # To list the options that are set for a loaded module use systool(1) from sysfsutils
 # apt install sysfsutils
 # systool -v -m module_name
+
+# To display the configuration of all the modules:
+# modprobe  -c | less
