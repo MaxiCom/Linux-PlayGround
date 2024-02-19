@@ -13,3 +13,6 @@
 
 # To display the configuration of all the modules:
 # modprobe  -c | less
+
+# To display the configuration of a particular module:
+# modprobe -c | grep module_name
