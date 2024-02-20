@@ -16,3 +16,9 @@
 
 # To display the configuration of a particular module:
 # modprobe -c | grep module_name
+
+
+# Example:
+# /etc/modules-load.d/virtio-net.conf
+# load virtio_net.ko during boot
+# virtio_net
