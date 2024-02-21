@@ -25,3 +25,6 @@
 
 # To load a module:
 # modprobe module_name
+
+# To load a module by filename (i.e. one that is not installed in /usr/lib/modules/$(uname -r)/
+# insmod filename [args]
