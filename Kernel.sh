@@ -28,3 +28,8 @@
 
 # To load a module by filename (i.e. one that is not installed in /usr/lib/modules/$(uname -r)/
 # insmod filename [args]
+
+# To unload a module
+# modprobe -r module_name
+# or
+# rmmod module_name
