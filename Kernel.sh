@@ -33,3 +33,7 @@
 # modprobe -r module_name
 # or
 # rmmod module_name
+
+# The basic way to pass parameters to a module (at load time) is using the modprobe command. 
+# Parameters are specified on command line using simple key=value assignements:
+# modprobe module_name parameter_name=parameter_value
