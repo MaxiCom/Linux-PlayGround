@@ -37,3 +37,14 @@
 # The basic way to pass parameters to a module (at load time) is using the modprobe command. 
 # Parameters are specified on command line using simple key=value assignements:
 # modprobe module_name parameter_name=parameter_value
+
+# Files in /etc/modprobe.d/ directory can be used to pass module settings to udev, which
+# will use modprobe to manage the loading of modules during system boot. Config files
+# can have any name, given that they end with the .conf extension. The syntax is:
+## /etc/modprobe.d/myfilename.conf
+# options module_name parameter_name=parameter_value
+
+# Multiple module params are separated by spaces, a parameter can receive a list of values 
+# which is separated by commas
+## /etc/modprobe.d/myfilename.conf
+# options module_name param1=value1 param2=value2a,value2b
