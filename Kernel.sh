@@ -22,3 +22,6 @@
 # /etc/modules-load.d/virtio-net.conf
 # load virtio_net.ko during boot
 # virtio_net
+
+# To load a module:
+# modprobe module_name
