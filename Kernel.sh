@@ -48,3 +48,7 @@
 # which is separated by commas
 ## /etc/modprobe.d/myfilename.conf
 # options module_name param1=value1 param2=value2a,value2b
+
+
+# On ThinkPads, this lets the 'thinkfan' daemon control fan speed
+# options thinkpad_acpi fan_control=1
