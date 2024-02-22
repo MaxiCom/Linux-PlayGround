@@ -1,0 +1,3 @@
+What are .ko files?
+
+Loadable Kernel modules (.ko files) are object files that are used to extend the kernel of the Linux distribution.
