@@ -17,3 +17,8 @@
 # Every device on a TCP/IP network must have a unique unicast IP address to access the network and its resources.
 # Without DHCP, IP addresses for new computers or computers that are moved from one subnet to another must be
 # configured manually; IP addresses for computers that are removed from the network must be manually reclaimed. 
+
+# With DHCP, this entire process is automated and managed centrally. The DCHP server maintains a pool of IP addresses
+# and leases an address to any DHCP-enabled client when it starts up on the network. Because the IP addresses are
+# dynamic (leased) rather than static (permanently assigned), addresses no longer in use are automatically returned
+# to the pool for reallocation.
